@@ -46,7 +46,7 @@ CREATE DATABASE test4;
 \c test4;
 CREATE SCHEMA test_schema;
 
-sudo -u postgres pg_restore --dbname=test5 --table=test_table  test3.sql
+sudo -u postgres pg_restore --dbname=test4 --table=test_table  test3.sql
 ```
 
 
